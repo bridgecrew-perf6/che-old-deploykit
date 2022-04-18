@@ -16,3 +16,6 @@
 [submodule "projects/postgresql-container-for-arm"]
 	path = projects/postgresql-container-for-arm
 	url = git@github.com:mikoto2000/postgresql-container-for-arm.git
+[submodule "projects/keycloak-containers-for-arm"]
+	path = projects/keycloak-containers-for-arm
+	url = git@github.com:mikoto2000/keycloak-containers-for-arm.git
