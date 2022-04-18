@@ -10,3 +10,6 @@
 [submodule "projects/che-server"]
 	path = projects/che-server
 	url = git@github.com:mikoto2000/che-server.git
+[submodule "projects/s2i-base-container-for-arm"]
+	path = projects/s2i-base-container-for-arm
+	url = git@github.com:mikoto2000/s2i-base-container-for-arm.git
