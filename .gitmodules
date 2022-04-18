@@ -1,3 +1,6 @@
 [submodule "projects/che-devfile-registry"]
 	path = projects/che-devfile-registry
 	url = git@github.com:mikoto2000/che-devfile-registry.git
+[submodule "projects/che-plugin-registry"]
+	path = projects/che-plugin-registry
+	url = git@github.com:mikoto2000/che-plugin-registry.git
