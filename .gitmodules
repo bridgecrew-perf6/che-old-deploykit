@@ -13,3 +13,6 @@
 [submodule "projects/s2i-base-container-for-arm"]
 	path = projects/s2i-base-container-for-arm
 	url = git@github.com:mikoto2000/s2i-base-container-for-arm.git
+[submodule "projects/postgresql-container-for-arm"]
+	path = projects/postgresql-container-for-arm
+	url = git@github.com:mikoto2000/postgresql-container-for-arm.git
