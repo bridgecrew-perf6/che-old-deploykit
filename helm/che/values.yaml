@@ -56,7 +56,7 @@ global:
 
   ## Allows to enable and configure TLS
   tls:
-    enabled: false
+    enabled: true
     ## Secret name that will be used in Che Ingresses for setting TLS up
     ## Note the helm chart does not create this secret and
     ## it MUST be pre-created in the configured Che namespace
