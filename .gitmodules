@@ -19,3 +19,6 @@
 [submodule "projects/keycloak-containers-for-arm"]
 	path = projects/keycloak-containers-for-arm
 	url = git@github.com:mikoto2000/keycloak-containers-for-arm.git
+[submodule "projects/che-dashboard"]
+	path = projects/che-dashboard
+	url = https://github.com/eclipse-che/che-dashboard.git
