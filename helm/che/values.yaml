@@ -21,7 +21,7 @@ cheWorkspaceNoProxy: ""
 #    operator: "Equal"
 #    value: "aValue"
 #    effect: "NoExecute"
-cheImage: quay.io/eclipse/che-server:7.41.0
+cheImage: quay.io/eclipse/che-server:7.45.0
 cheImagePullPolicy: Always
 cheKeycloakRealm: "che"
 cheKeycloakClientId: "che-public"
@@ -56,7 +56,7 @@ global:
 
   ## Allows to enable and configure TLS
   tls:
-    enabled: true
+    enabled: false
     ## Secret name that will be used in Che Ingresses for setting TLS up
     ## Note the helm chart does not create this secret and
     ## it MUST be pre-created in the configured Che namespace
@@ -129,7 +129,7 @@ che:
   logLevel: "INFO"
 
 dashboard:
-  image: quay.io/eclipse/che-dashboard:7.41.0
+  image: quay.io/eclipse/che-dashboard:7.45.0
   imagePullPolicy: "Always"
   memoryRequest: 16Mi
   memoryLimit: 256Mi
