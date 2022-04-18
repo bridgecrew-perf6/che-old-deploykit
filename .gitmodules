@@ -4,3 +4,6 @@
 [submodule "projects/che-plugin-registry"]
 	path = projects/che-plugin-registry
 	url = git@github.com:mikoto2000/che-plugin-registry.git
+[submodule "projects/che-plugin-broker"]
+	path = projects/che-plugin-broker
+	url = https://github.com/eclipse-che/che-plugin-broker.git
