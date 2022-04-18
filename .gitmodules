@@ -7,3 +7,6 @@
 [submodule "projects/che-plugin-broker"]
 	path = projects/che-plugin-broker
 	url = https://github.com/eclipse-che/che-plugin-broker.git
+[submodule "projects/che-server"]
+	path = projects/che-server
+	url = git@github.com:mikoto2000/che-server.git
