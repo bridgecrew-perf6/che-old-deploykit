@@ -1,0 +1,11 @@
+version: '3'
+services:
+  che-buildkit:
+    image: mikoto2000/che-buildkit
+    volumes:
+      - ~/.ssh:/ssh
+      - ~/.m2:/root/.m2
+      - /var/run/docker.sock:/var/run/docker.sock
+    working_dir: /work
+    command: bash -c "cp -r /ssh /root/.ssh && chmod 700 /root/.ssh && chmod 600 /root/.ssh/* && /bin/bash && rm -rf /root/.ssh"
+
