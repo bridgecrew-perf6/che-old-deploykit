@@ -50,7 +50,7 @@ global:
   cheHost: ""
   # Image used by endpoint watchers
   endpointWatcher:
-    image: mikoto2000/che-endpoint-watcher:next
+    image: mikoto2000/che-endpoint-watcher:7.45.0
   # Use internal cluster svc names to communicate between components
   useInternalClusterSVCNames: true
 
