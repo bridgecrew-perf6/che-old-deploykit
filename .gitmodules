@@ -1,0 +1,24 @@
+[submodule "projects/che-devfile-registry"]
+	path = projects/che-devfile-registry
+	url = git@github.com:mikoto2000/che-devfile-registry.git
+[submodule "projects/che-plugin-registry"]
+	path = projects/che-plugin-registry
+	url = git@github.com:mikoto2000/che-plugin-registry.git
+[submodule "projects/che-plugin-broker"]
+	path = projects/che-plugin-broker
+	url = https://github.com/eclipse-che/che-plugin-broker.git
+[submodule "projects/che-server"]
+	path = projects/che-server
+	url = git@github.com:mikoto2000/che-server.git
+[submodule "projects/s2i-base-container-for-arm"]
+	path = projects/s2i-base-container-for-arm
+	url = git@github.com:mikoto2000/s2i-base-container-for-arm.git
+[submodule "projects/postgresql-container-for-arm"]
+	path = projects/postgresql-container-for-arm
+	url = git@github.com:mikoto2000/postgresql-container-for-arm.git
+[submodule "projects/keycloak-containers-for-arm"]
+	path = projects/keycloak-containers-for-arm
+	url = git@github.com:mikoto2000/keycloak-containers-for-arm.git
+[submodule "projects/che-dashboard"]
+	path = projects/che-dashboard
+	url = https://github.com/eclipse-che/che-dashboard.git
